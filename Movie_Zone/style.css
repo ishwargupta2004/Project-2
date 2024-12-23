@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    gap: 2rem;
+    text-align: center;
+  
+  }
+  
+  .box {
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+  
+  }
+  
+  .box img {
+    height: 300px;
+    width: 280px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+  }
+  
+  .box:hover{
+    transition: transform 0.7s ease;
+    overflow: hidden;
+  transform:  scale(1.1) translateZ(50px);
+  }
+  
+  .detail{
+  max-width: 280px;
+  }
+  
+  .btns{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  }
