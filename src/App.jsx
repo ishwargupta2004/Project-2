@@ -1,10 +1,10 @@
 import React from 'react'
-import Movies from '../Movie_Zone/Movies'
+import Meal from '../Food_recipie/Meal'
 
 const App = () => {
   return (
     <div>
-      <Movies/>
+      <Meal/>
     </div>
   )
 }
